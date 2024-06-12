@@ -1,0 +1,54 @@
+<%- include('./partials/header.ejs') %>
+
+<div class="container col-xxl-8 px-4 py-5" id="Home">
+	<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+		<div class="col-10 col-sm-8 col-lg-6">
+			<img
+				id="profilePicture"
+				src="/images/profilePicture.png"
+				class="d-block mx-lg-auto img-fluid"
+				alt="profilePicture"
+				style="width: 80%",
+				/>
+		</div>
+		<div class="col-lg-6">
+			<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+				Vinit Sonawane
+			</h1>
+			<p class="lead">
+				Hi there, My name is Vinit Sonawane. From British Columbia, Canada. I am a passionate web developer.<img src="/images/geo.svg" alt="geo" />
+			</p>
+				<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+					<button type="button" class="btn btn-outline-secondary btn-lg px-4">
+						<a href="/Contact" class="nav-link">Contact Info</a>
+					</button>
+					<a
+						href="Vinit Sonawane.pdf"
+						class="btn btn-outline-secondary btn-lg px-4"
+						download
+						>Download CV</a
+					>
+				</div>
+				<div class="d-flex justify-content-start">
+					<div class="social-link">
+						<a href="https://github.com/VinitO1" target="_blank">
+							<img src="/images/github.svg" alt="github" class="socialLinks"
+							style="width: 30px; height: 30px; margin-right: 10px; margin-top: 10px;" />
+						</a>
+					</div>
+					<div class="social-link">
+						<a href="https://www.linkedin.com/in/vinito7" target="_blank">
+							<img
+								src="/images/linkedin.svg"
+								alt="linkedin"
+								class="socialLinks" 
+								style="width: 30px; height: 30px; margin-right: 10px;margin-top: 10px;"/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<%- include('./partials/footer.ejs') %>
