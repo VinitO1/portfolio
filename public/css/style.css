@@ -1,35 +1,43 @@
 body {
-    background-color: #000000; /* Black background */
-    color: #ffffff; /* White text */
+	background-color: #000000; /* Black background */
+	color: #ffffff; /* White text */
 }
 
 /* This will make sure your links are also white */
 a {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 /* This will make sure your button text is also white */
 .btn {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 /* This will make sure your headings are also white */
 h1 {
-    color: #ffffff !important; 
+	color: #ffffff !important;
 }
 
 h1.text-body-emphasis {
-    color: #ffffff !important; /* White text */
+	color: #ffffff !important; /* White text */
 }
 
 footer span {
-    color: #ffffff !important; 
+	color: #ffffff !important;
 }
 
 #projectTitle {
-    background-color: #5A72A0 !important;
-    color: #ffffff !important; 
+	background-color: #5a72a0 !important;
+	color: #ffffff !important;
 }
-#projectLinks{
-    background-color: #E4C59E ;
+#projectLinks {
+	background-color: #e4c59e;
+}
+#contact-page {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
+#aboutPage {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
 }
